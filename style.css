@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ body{
+    background: #1f242d;
+ }
+ a{
+    text-decoration: none;
+    color: #fff;
+ }
+ h3{
+    color: #09f143;
+ }
+ .navbar{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 25px 9%;
+    background: #030303;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+ }
+ h3{
+    font-size: 30px;
+    font-weight: 700;
+    color: #09f143;
+ }
+ .navbar ul{
+    display: flex;
+ }
+ .navbar ul li{
+    list-style: none;
+    margin-left: 35px
+ }
+ .navbar ul li a{
+    font-size: 20px;
+    font-weight: 500;
+    transition:.5s;
+ }
+ .navbar ul li:hover a{
+    color: #09f143;
+ }
+ .home{
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    height: 100vh;
+    padding: 100px;
+    color: #fff;
+    flex-direction: column;
+ }
+ .home h1{
+    font-size: 55px;
+    color: #09f143;
+ }
+ .home h2{
+    font-size: 32px;
+    margin-top: 20px;
+ }
+ .home p{
+    font-size: 16px;
+    margin-top: 10px;
+    margin: 10 px 0 25px;
+ }
+ .social-buttons .sci a{
+    margin-top: 20px;
+    display: inline-flex;
+    padding: 8px;
+    border: 2px solid #09f143;
+    border-radius: 75%;
+    font-size: 20px;
+    color: #09f143;
+    margin: 2 8px;
+    margin-right: 8px;
+    transition: .75s;
+ }
+ .social-buttons .sci a:hover{
+    background: #09f143;
+    color: black;
+ }
+ img {
+    width: 200px;
+    height: auto;
+    border-radius: 15%;
+    display: block;
+    margin-left: auto;
+ } 
